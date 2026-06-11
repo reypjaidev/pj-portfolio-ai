@@ -3,204 +3,192 @@
 // All text, links, jobs and projects live here.
 // ─────────────────────────────────────────────────────────────
 
-const VIDEO_CDN = 'https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders'
-const IMG_CDN = 'https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/heroes'
+const VIDEO_CDN =
+  "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders";
+const IMG_CDN =
+  "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/heroes";
 
 export const themes = {
   luna: {
-    id: 'luna',
-    label: 'Luna',
-    epithet: 'OF THE MOON',
+    id: "luna",
+    label: "Luna",
+    epithet: "OF THE MOON",
     video: `${VIDEO_CDN}/luna.webm`,
     videoMov: `${VIDEO_CDN}/luna.mov`,
     poster: `${VIDEO_CDN}/luna.png`,
   },
   shadow: {
-    id: 'shadow',
-    label: 'Shadow Fiend',
-    epithet: 'OF THE SHADOW',
+    id: "shadow",
+    label: "Shadow Fiend",
+    epithet: "OF THE SHADOW",
     video: `${VIDEO_CDN}/nevermore.webm`,
     videoMov: `${VIDEO_CDN}/nevermore.mov`,
     poster: `${VIDEO_CDN}/nevermore.png`,
   },
-}
+};
 
 export const profile = {
-  name: 'PJ',
-  title: 'The Code Rider',
-  attribute: 'UNIVERSAL', // because full-stack-ish frontend devs scale with everything
-  role: 'REACT JS DEVELOPER',
+  name: "PJ",
+  title: "The Code Rider",
+  attribute: "UNIVERSAL", // because full-stack-ish frontend devs scale with everything
+  role: "FRONTEND DEVELOPER",
   description:
-    'Wielding React for 5 years, PJ descends upon legacy codebases like an Eclipse — ' +
-    'beams of clean components raining from above. By day a frontend carry; by night a ' +
-    'dad of two and a husband, guarding his lane and his family with equal devotion.',
+    "Hailing from Cebu, PJ descends upon the frontend lane like an Eclipse — " +
+    "beams of clean React components raining from above. By day a frontend carry at " +
+    "Zouq Online PH; by night a dad of two and a husband, guarding his lane and his " +
+    "family with equal devotion.",
   stats: [
-    { label: 'ATTACK TYPE', value: 'Remote / Onsite' },
-    { label: 'EXPERIENCE', value: '5 Years' },
-    { label: 'BASE CLASS', value: 'Frontend Carry' },
+    { label: "ATTACK TYPE", value: "Remote / Onsite" },
+    { label: "EXPERIENCE", value: "2+ Years" },
+    { label: "BASE CLASS", value: "Frontend Carry" },
   ],
   complexity: 2, // out of 3 — dad of two, complexity is at home
-  email: 'pj@example.com',
-  github: 'https://github.com/your-github',
-  linkedin: 'https://linkedin.com/in/your-linkedin',
-}
+  email: "reypjbaliguat@gmail.com",
+  github: "https://github.com/reypjaidev",
+  linkedin: "https://www.linkedin.com/in/rey-pj-baliguat-01a817200/",
+};
 
 export const roles = [
-  { name: 'Frontend', level: 95 },
-  { name: 'UI / UX', level: 80 },
-  { name: 'Backend', level: 60 },
-  { name: 'Testing', level: 70 },
-  { name: 'DevOps', level: 45 },
-]
+  { name: "Frontend", level: 95 },
+  { name: "UI / UX", level: 80 },
+  { name: "Backend", level: 60 },
+  { name: "Testing", level: 70 },
+  { name: "DevOps", level: 45 },
+];
 
 export const family = [
   {
-    name: 'Luna',
-    tag: 'THE MOON RIDER',
-    blurb: 'Firstborn and namesake of the Moon. Rides scooters instead of Nova — for now. Lucent Beams of energy from sunrise to bedtime.',
-    img: `${IMG_CDN}/luna.png`,
+    name: "Luna",
+    tag: "THE MOON RIDER",
+    blurb:
+      "Firstborn and namesake of the Moon. Rides scooters instead of Nova — for now. Lucent Beams of energy from sunrise to bedtime.",
+    img: `https://res.cloudinary.com/ddmr2bcva/image/upload/v1781200588/660468886_26106157462340829_8186466714842810495_n_w3ohya.jpg`,
   },
   {
-    name: 'Shadow',
-    tag: 'THE LITTLE FIEND',
-    blurb: 'Collects toys the way Nevermore collects souls. Requiem of Tantrums hits the whole house, but the smile heals all damage dealt.',
-    img: `${IMG_CDN}/nevermore.png`,
+    name: "Shadow",
+    tag: "THE LITTLE FIEND",
+    blurb:
+      "Collects toys the way Nevermore collects souls. Requiem of Tantrums hits the whole house, but the smile heals all damage dealt.",
+    img: "https://res.cloudinary.com/ddmr2bcva/image/upload/v1781200235/493989076_10229050531429050_8671170489907195796_n_jv7bjj.jpg",
   },
   {
-    name: 'The Wife',
-    tag: 'HARD SUPPORT',
-    blurb: 'The true MVP. Wards the household, stacks the camps, and somehow keeps the whole team alive. MMR: immeasurable.',
-    img: null, // styled card, no hero art
+    name: "The Wife",
+    tag: "HARD SUPPORT",
+    blurb:
+      "The true MVP. Wards the household, stacks the camps, and somehow keeps the whole team alive. MMR: immeasurable.",
+    img: "https://res.cloudinary.com/ddmr2bcva/image/upload/v1781200236/720920219_26950327744590459_7706548873559747927_n_i82rqs.jpg", // styled card, no hero art
   },
-]
+];
 
 export const skills = [
   {
-    id: 'react',
-    name: 'React',
-    type: 'CORE / SIGNATURE ABILITY',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
-    years: 5,
-    desc: 'Primary weapon. Hooks, context, suspense, performance tuning — component trees fall like creep waves.',
+    id: "react",
+    name: "React",
+    type: "CORE / SIGNATURE ABILITY",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    years: 2,
+    desc: "Primary weapon. Hooks, context, scalable dynamic UIs — component trees fall like creep waves.",
   },
   {
-    id: 'javascript',
-    name: 'JavaScript',
-    type: 'PASSIVE / ALWAYS ACTIVE',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-    years: 6,
-    desc: 'The base attribute everything scales from. ES2024+, async patterns, the event loop holds no mysteries.',
+    id: "javascript",
+    name: "JavaScript",
+    type: "PASSIVE / ALWAYS ACTIVE",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    years: 3,
+    desc: "The base attribute everything scales from. Modern ES, async patterns, the event loop holds no mysteries.",
   },
   {
-    id: 'typescript',
-    name: 'TypeScript',
-    type: 'AURA / TEAM BUFF',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
-    years: 4,
-    desc: 'Grants +100 confidence to all allied developers within refactor range. Strict mode always on.',
-  },
-  {
-    id: 'redux',
-    name: 'Redux / Zustand',
-    type: 'ACTIVE / STATE CONTROL',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg',
-    years: 4,
-    desc: 'Controls the battlefield state. Single source of truth, predictable as a well-timed Eclipse.',
-  },
-  {
-    id: 'nextjs',
-    name: 'Next.js',
-    type: 'ULTIMATE / SSR STRIKE',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg',
+    id: "nextjs",
+    name: "Next.js",
+    type: "ULTIMATE / SSR STRIKE",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
     invert: true,
-    years: 3,
-    desc: 'Server components, routing, rendering strategies — global presence on every lane of the web.',
+    years: 2,
+    desc: "Server-side rendering and routing — global presence on every lane of the web.",
   },
   {
-    id: 'nodejs',
-    name: 'Node.js',
-    type: 'ACTIVE / BACKLINE',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
-    years: 4,
-    desc: 'REST APIs, tooling and build scripts. Comfortable rotating to the backend when the team needs it.',
+    id: "tailwind",
+    name: "Tailwind CSS",
+    type: "PASSIVE / FAST CRAFT",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+    years: 2,
+    desc: "Rapid-fire styling with utility classes. Ships polished UI before the enemy finishes their boots.",
   },
   {
-    id: 'tailwind',
-    name: 'Tailwind CSS',
-    type: 'PASSIVE / FAST CRAFT',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg',
-    years: 3,
-    desc: 'Rapid-fire styling with utility classes. Ships polished UI before the enemy finishes their boots.',
+    id: "bootstrap",
+    name: "Bootstrap",
+    type: "ARMOR / CONSISTENT BUILD",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    years: 2,
+    desc: "Battle-tested armor set. Consistent, responsive layouts equipped in seconds.",
   },
   {
-    id: 'jest',
-    name: 'Jest / RTL',
-    type: 'WARD / VISION',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
-    years: 4,
-    desc: 'Places true sight over the codebase. Regressions revealed before they ever reach production.',
+    id: "nodejs",
+    name: "Node.js",
+    type: "ACTIVE / BACKLINE",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    years: 2,
+    desc: "Express APIs, tooling and build scripts. Comfortable rotating to the backend when the team needs it.",
   },
-]
+  {
+    id: "mongodb",
+    name: "MongoDB",
+    type: "WARD / DATA VISION",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    years: 2,
+    desc: "The M in MERN. Stores the team's gold and items — documents flow like a well-farmed lane.",
+  },
+  {
+    id: "agile",
+    name: "Agile / Scrum",
+    type: "AURA / TEAM BUFF",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+    years: 2,
+    desc: "Grants +100 coordination to all allied developers. Sprints, stand-ups and Kanban boards — drafted every patch.",
+  },
+];
 
 export const experience = [
   {
     level: 25,
-    period: '2025 — PRESENT',
-    title: 'Senior React Developer',
-    company: 'Your Current Company',
+    period: "2025 — PRESENT", // TODO: confirm start date
+    title: "Frontend Developer",
+    company: "Zouq Online PH",
     points: [
-      'Leads the frontend lane on the flagship product, mentoring a party of junior devs.',
-      'Architected a component library used across 4 internal teams.',
-      'Cut initial bundle size by 40% — faster than a Moon Glaive bounce.',
+      "Holds the frontend lane — scalable, dynamic user interfaces with React.js and its ecosystem.",
+      "Crafts consistent, responsive layouts with Tailwind CSS and Bootstrap.",
+      "Optimizes web apps for performance, accessibility and SEO — vision over the whole map.",
+      "Rotates with the team in Agile fashion — Scrum sprints and Kanban boards.",
     ],
   },
   {
-    level: 18,
-    period: '2023 — 2025',
-    title: 'React Developer',
-    company: 'Previous Company',
+    level: 12,
+    period: "2024 — 2025", // TODO: confirm dates
+    title: "Application Developer",
+    company: "Advanced World Systems",
     points: [
-      'Shipped customer-facing dashboards with React, TypeScript and Redux.',
-      'Migrated a legacy class-component codebase to modern hooks.',
-      'Paired with designers to push pixel-perfect UI every sprint.',
+      "First blood: developed and maintained enterprise-level software solutions.",
+      "Learned the meta of large codebases — discipline, process and clean delivery.",
+      "Earned the frontend core badge and never looked back.",
     ],
   },
-  {
-    level: 10,
-    period: '2021 — 2023',
-    title: 'Frontend Developer',
-    company: 'First Company',
-    points: [
-      'First blood: built and maintained marketing sites and internal tools.',
-      'Learned the meta — responsive layouts, accessibility, performance.',
-      'Earned the React core badge and never looked back.',
-    ],
-  },
-]
+];
 
 export const projects = [
   {
-    name: 'Project Nova',
-    tag: 'WEB APP',
-    desc: 'A real-time analytics dashboard with live charts and websocket updates. Glaives of data bouncing between services.',
-    tech: ['React', 'TypeScript', 'WebSockets'],
-    link: '#',
-    flavor: 'luna',
+    name: "Hero Portfolio",
+    tag: "WEB APP",
+    desc: "This very page — a Dota 2 hero-themed portfolio with theme switching and hero-render videos. Glaives of components bouncing between sections.",
+    tech: ["React", "Vite", "Tailwind"],
+    link: "https://github.com/reypjaidev",
+    flavor: "luna",
   },
   {
-    name: 'Requiem UI',
-    tag: 'COMPONENT LIBRARY',
-    desc: 'A dark-themed React component library. Every release gathers souls — I mean, GitHub stars.',
-    tech: ['React', 'Storybook', 'Tailwind'],
-    link: '#',
-    flavor: 'shadow',
+    name: "Typing Game",
+    tag: "MERN APP",
+    desc: "A typing game web app powered by the full MERN stack. Farms words-per-minute the way Nevermore farms souls.",
+    tech: ["MongoDB", "Express", "React", "Node.js"],
+    link: "https://github.com/reypjaidev",
+    flavor: "shadow",
   },
-  {
-    name: 'Eclipse Commerce',
-    tag: 'E-COMMERCE',
-    desc: 'A full storefront with cart, checkout and CMS integration. Converts visitors faster than a level 6 power spike.',
-    tech: ['Next.js', 'Stripe', 'Sanity'],
-    link: '#',
-    flavor: 'luna',
-  },
-]
+];
