@@ -46,7 +46,7 @@ export default function Experience() {
               <span className="font-cond font-semibold text-[0.92rem] tracking-[0.08em] uppercase text-fg-dim">
                 {job.company}
               </span>
-              <ul className="mt-3 pl-[1.1rem] grid gap-1.5 text-[0.93rem] text-fg [&_li::marker]:text-(--accent)">
+              <ul className="mt-3 pl-[1.1rem] grid gap-1.5 text-[0.93rem] text-fg list-disc [&_li::marker]:text-(--accent)">
                 {job.points.map(p => (
                   <li key={p}>{p}</li>
                 ))}

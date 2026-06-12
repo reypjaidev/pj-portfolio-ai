@@ -151,24 +151,46 @@ export const skills = [
 export const experience = [
   {
     level: 25,
-    period: "2025 — PRESENT", // TODO: confirm start date
-    title: "Frontend Developer",
-    company: "Zouq Online PH",
+    period: "2025 — PRESENT", // TODO: confirm dates
+    title: "Senior Design Engineer",
+    company: "Sesimi",
     points: [
-      "Holds the frontend lane — scalable, dynamic user interfaces with React.js and its ecosystem.",
-      "Crafts consistent, responsive layouts with Tailwind CSS and Bootstrap.",
-      "Optimizes web apps for performance, accessibility and SEO — vision over the whole map.",
-      "Rotates with the team in Agile fashion — Scrum sprints and Kanban boards.",
+      "Carries the design-engineering lane of a brand-management platform — dynamic, on-brand templates built with React.",
+      "Bridges design and code, turning brand systems into reusable, pixel-perfect components.",
+      "Raises the bar on UI quality, accessibility and performance across the product.",
     ],
   },
   {
-    level: 12,
+    level: 20,
     period: "2024 — 2025", // TODO: confirm dates
-    title: "Application Developer",
-    company: "Advanced World Systems",
+    title: "Full Stack Developer",
+    company: "Zouq Online PH",
     points: [
-      "First blood: developed and maintained enterprise-level software solutions.",
+      "Held both lanes — scalable, dynamic user interfaces with React.js on the front, APIs on the back.",
+      "Crafted consistent, responsive layouts with Tailwind CSS and Bootstrap.",
+      "Optimized web apps for performance, accessibility and SEO — vision over the whole map.",
+      "Rotated with the team in Agile fashion — Scrum sprints and Kanban boards.",
+    ],
+  },
+  {
+    level: 15,
+    period: "2023 — 2024", // TODO: confirm dates
+    title: "Application Developer",
+    company: "AWS Philippines (Advanced World Systems)",
+    points: [
+      "Developed and maintained enterprise-level software solutions for client teams.",
       "Learned the meta of large codebases — discipline, process and clean delivery.",
+      "Modernized legacy interfaces into responsive, component-driven UIs.",
+    ],
+  },
+  {
+    level: 10,
+    period: "2022 — 2023", // TODO: confirm dates
+    title: "Software Engineer",
+    company: "Beautitag Limited",
+    points: [
+      "First blood: built and shipped customer-facing web features for a beauty-tech platform.",
+      "Sharpened the fundamentals — responsive layouts, REST integrations and clean component architecture.",
       "Earned the frontend core badge and never looked back.",
     ],
   },
