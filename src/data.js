@@ -30,6 +30,8 @@ export const themes = {
 export const profile = {
   name: "PJ",
   title: "The Code Rider",
+  photo:
+    "https://res.cloudinary.com/ddmr2bcva/image/upload/v1781252197/1724207144515_blwfk7.jpg",
   attribute: "UNIVERSAL", // because full-stack-ish frontend devs scale with everything
   role: "FRONTEND DEVELOPER",
   description:

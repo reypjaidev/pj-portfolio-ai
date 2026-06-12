@@ -1,4 +1,4 @@
-import { family } from '../data.js'
+import { family, profile } from '../data.js'
 
 export default function About() {
   return (
@@ -16,6 +16,22 @@ export default function About() {
 
         {/* Bio */}
         <div className="text-fg text-[1rem] leading-relaxed space-y-4">
+          <div className="bg-panel border border-edge rounded-sm overflow-hidden max-w-70 transition-[border-color,transform,box-shadow] duration-200 hover:border-(--accent) hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.45),0_0_14px_var(--glow)]">
+            <img
+              src={profile.photo}
+              alt={`${profile.name} portrait`}
+              loading="lazy"
+              className="w-full aspect-4/5 object-cover"
+            />
+            <div className="p-[0.7rem_1rem] border-t border-edge">
+              <span className="font-cond font-bold text-[0.68rem] tracking-[0.24em] text-(--accent)">
+                {profile.role}
+              </span>
+              <h4 className="font-display text-[1.1rem] text-fg-bright mt-0.5">
+                {profile.name} — {profile.title}
+              </h4>
+            </div>
+          </div>
           <p>
             I&apos;m <strong className="text-fg-bright">PJ</strong>, a React JS developer
             with <strong className="text-fg-bright">5 years of experience</strong> building
