@@ -41,7 +41,7 @@ export const profile = {
     "family with equal devotion.",
   stats: [
     { label: "ATTACK TYPE", value: "Remote / Onsite" },
-    { label: "EXPERIENCE", value: "2+ Years" },
+    { label: "EXPERIENCE", value: "5+ Years" },
     { label: "BASE CLASS", value: "Frontend Carry" },
   ],
   complexity: 2, // out of 3 — dad of two, complexity is at home
